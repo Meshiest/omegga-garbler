@@ -1,0 +1,8 @@
+{
+  "name": "garbler",
+  "description": "Garbles chat, make sure chat distance and name distance are 0",
+  "author": "cake",
+  "config": {
+  },
+  "commands": []
+}
