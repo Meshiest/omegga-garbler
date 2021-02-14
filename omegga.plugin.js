@@ -15,15 +15,16 @@ const gauss = () => (
 const garble = (m, amt=4) => {
   let message = m.split('');
   for (let i = 0; i < m.length; i++) {
-    const char = m[i];
+    const char = message[i];
     const space = charSpace.find(s => s.includes(char));
     if (!space) {
       continue;
     } else {
       // garble by shift
-      const index = space.indexOf(char);
+      // const index = space.indexOf(char);
       // message[i] = space[(index + Math.round(gauss() * amt) + space.length * 10) % space.length];
 
+      // garble by swap
       const swapIndex = Math.max(0, Math.min(Math.round(i + gauss() * amt), m.length));
       const temp = message[i];
       message[i] = message[swapIndex];
