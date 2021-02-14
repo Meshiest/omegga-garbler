@@ -4,6 +4,10 @@ A chat garbling plugin for [omegga](https://github.com/brickadia-community/omegg
 
 ## Install
 
+Easy: `omegga install gh:Meshiest/garbler`
+
+Manual:
+
 * `git clone https://github.com/meshiest/omegga-garbler garbler` in `plugins` directory
 
 ## Usage
